@@ -8,7 +8,7 @@
         name = "gBar";
         src = ./.;
         nativeBuildInputs = [meson ninja pkg-config];
-        buildInputs = [gtk3 gtk-layer-shell libpulseaudio pamixer];
+        buildInputs = [gtk3 gtk-layer-shell libpulseaudio];
       };
   };
 }
