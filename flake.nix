@@ -9,9 +9,6 @@
         src = ./.;
         nativeBuildInputs = [meson ninja pkg-config];
         buildInputs = [gtk3 gtk-layer-shell libpulseaudio pamixer];
-        build = ''
-          meson build --buildtype=release -DWithHyprland=false -DWithNvidia=false -DWithBlueZ=false
-        '';
       };
   };
 }
